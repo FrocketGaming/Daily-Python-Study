@@ -1,0 +1,17 @@
+Generate a Python coding challenge that is suitable for beginners.
+    The challenge should be unique and creative.
+    
+    Your response must follow this format:
+    
+    CHALLENGE:
+    1. Problem description
+    2. Example input and output
+    3. Constraints and requirements
+    
+    SOLUTION:
+    Provide a well-commented Python solution to the problem.
+    
+    Requirements:
+    - Challenge should be solvable within 15 minutes
+    - Use clear, beginner-friendly language
+    - Solution should demonstrate best practices
