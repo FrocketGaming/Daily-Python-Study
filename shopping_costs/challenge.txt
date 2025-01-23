@@ -1,0 +1,32 @@
+CHALLENGE:
+
+    Problem Description
+    You are tasked with writing a Python function that calculates the total cost of items in a shopping list. Each item has a name, quantity, and price per unit. Your function should return the total cost rounded to two decimal places.
+
+Write a function calculate_total_cost(shopping_list) that takes in a list of dictionaries. Each dictionary represents an item with the following keys:
+
+    "name": The name of the item (string).
+    "quantity": The quantity of the item (integer).
+    "price_per_unit": The price per unit of the item (float).
+
+The function should calculate the total cost by multiplying the quantity by the price per unit for each item and summing these values.
+
+    Example Input and Output
+    Input:
+
+shopping_list = [
+    {"name": "Apple", "quantity": 4, "price_per_unit": 0.5},
+    {"name": "Banana", "quantity": 6, "price_per_unit": 0.3},
+    {"name": "Milk", "quantity": 1, "price_per_unit": 1.2}
+]
+
+Output:
+
+Total cost: 5.0
+
+    Constraints and Requirements
+
+    Assume the input will always be a list of dictionaries, and each dictionary will always have the keys "name", "quantity", and "price_per_unit".
+    Quantities will always be non-negative integers, and prices will always be non-negative floats.
+    Return the result rounded to two decimal places.
+    Do not use any external libraries.
