@@ -1,0 +1,15 @@
+Problem Description
+You are organizing a party, and you need to create a guest list based on RSVPs. Write a Python program that takes a list of guest names as input, removes duplicate names, and sorts the names alphabetically. Finally, print the unique, sorted guest list.
+
+Example Input and Output
+Input:
+["Alice", "Bob", "Alice", "Charlie", "Bob", "David"]
+Output:
+["Alice", "Bob", "Charlie", "David"]
+
+Constraints and Requirements
+
+    The input list will contain at least one name and no more than 50 names.
+    Each name in the list will be a string of alphabetical characters, no longer than 20 characters.
+    The output must be a sorted list with no duplicates.
+    You must use Python’s built-in features like sets and list methods to solve the problem.
