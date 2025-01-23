@@ -1,0 +1,33 @@
+1. Problem Description:
+
+Write a Python program called "Secret Word Decoder".
+The program takes an encoded string as input, where each character in the string is shifted forward in the alphabet by its position in the string (1-based index). For example:
+
+    The first character is shifted forward by 1.
+    The second character is shifted forward by 2.
+    The third character is shifted forward by 3, and so on.
+
+Your task is to decode the string back to its original form by reversing the shifts. Assume all characters in the input string are lowercase letters (a-z), and the alphabet wraps around (e.g., a shifted backward by 1 becomes z).
+2. Example Input and Output:
+
+Input:
+"dnotq"
+
+Output:
+"clown"
+
+Explanation:
+The encoded string "dnotq" is decoded as follows:
+
+    'd' was shifted forward by 1 → shift it back by 1 → 'c'
+    'n' was shifted forward by 2 → shift it back by 2 → 'l'
+    'o' was shifted forward by 3 → shift it back by 3 → 'l'
+    't' was shifted forward by 4 → shift it back by 4 → 'o'
+    'q' was shifted forward by 5 → shift it back by 5 → 'n'
+
+3. Constraints and Requirements:
+
+    The input string will only contain lowercase letters (a-z).
+    The output must always be lowercase.
+    The program must handle strings up to 50 characters in length.
+    Avoid using libraries that simplify the problem (e.g., string or cryptography).
